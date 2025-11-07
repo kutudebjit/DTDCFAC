@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar sticky-top">
       <div className="nav-container">
         <div className="logo">
-          <a href="https://www.aicte.gov.in/">
+          <a href="https://www.aicte.gov.in/" target="_blank">
             <img
               src="src\assets\AICTE_logo.jpeg"
               alt="AICTE_Logo"
@@ -20,14 +20,14 @@ const Navbar = () => {
             alt="DTDCFAC_Logo"
             className="logo-img"
           />
-          <a href="https://www.jisgroup.org/">
+          <a href="https://www.jisgroup.org/" target="_blank">
             <img
               src="src\assets\images.png"
               alt="JIS_Logo"
               className="logo-img"
             />
           </a>
-          <a href="https://www.surtech.edu.in/">
+          <a href="https://www.surtech.edu.in/" target="_blank">
             <img
               src="src\assets\SurTech_Logo.png"
               alt="SurTech_Logo"
@@ -61,12 +61,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#services" onClick={() => setIsOpen(false)}>
+            <a href="#registrationfeestable" onClick={() => setIsOpen(false)}>
               Paper Registration
             </a>
           </li>
           <li>
-            <a href="#services" onClick={() => setIsOpen(false)}>
+            <a href="#conferencetracks" onClick={() => setIsOpen(false)}>
               Conference Tracks
             </a>
           </li>

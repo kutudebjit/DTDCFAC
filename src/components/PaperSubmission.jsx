@@ -6,7 +6,7 @@ const PaperSubmission = () => {
       {" "}
       <div className="container">
         {" "}
-        <h2 className="section-title">Paper Submission</h2>{" "}
+        <h2 className="section-title">Paper Submission</h2> <hr />
         <div className="cards-grid top-card">
           {" "}
           <div className="card">
@@ -34,33 +34,20 @@ const PaperSubmission = () => {
               className="card-link"
             >
               {" "}
-              Submit Your Paper Here{" "}
+              ☞ Submit Your Paper Here{" "}
             </a>{" "}
           </div>{" "}
           <div className="card">
             {" "}
             <h3 className="card-title">Paper Template</h3>{" "}
             <a
-              href="https://www.conference-paper-template.com"
+              href="https://docs.google.com/document/d/1fWVfoe1BM2mGm_8Z9qRz3c7_RT1T1Vdh/edit?usp=sharing&ouid=116738563861057593415&rtpof=true&sd=true"
               target="_blank"
               rel="noopener noreferrer"
               className="card-link"
             >
               {" "}
-              Download Paper Template{" "}
-            </a>{" "}
-          </div>{" "}
-          <div className="card">
-            {" "}
-            <h3 className="card-title">Copyright Form</h3>{" "}
-            <a
-              href="https://www.conference-copyright-form.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="card-link"
-            >
-              {" "}
-              Download & Submit Copyright Form{" "}
+              ☞ Download Paper Template{" "}
             </a>{" "}
           </div>{" "}
         </div>{" "}
